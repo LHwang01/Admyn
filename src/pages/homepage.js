@@ -1,6 +1,8 @@
+import classes from './homepage.css'
+
 const HomePage = () => {
     return (
-        'Test'
+        <div></div>
     )
 }
 
