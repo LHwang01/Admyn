@@ -1,3 +1,27 @@
+.NavBar {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.9;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 .NavBar nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar nav ul li {
+    display: inline-block;
+    margin: 1.5vw;
+}
+
+.NavBar nav ul li a {
+    text-decoration: none;
+    color: black;
 }
