@@ -1,8 +1,12 @@
 import HomePage from './pages/HomePage/HomePage'
+import NavBar from './pages/NavBar/NavBar'
 
 function App() {
   return (
-    <HomePage />
+    <div>
+      <NavBar />
+      <HomePage />
+    </div>
   );
 }
 
