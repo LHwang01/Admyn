@@ -1,4 +1,4 @@
-import classes from './HomePage.css'
+import './HomePage.css'
 
 const HomePage = () => {
     return (

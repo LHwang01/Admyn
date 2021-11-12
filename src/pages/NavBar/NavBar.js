@@ -1,26 +1,29 @@
-import classes from "./NavBar.css"
+import './NavBar.css'
 
 const NavBar = () => {
     return (  
-        <div className={classes.NavBar}>
+        <div className="NavBar">
             <nav>
                 <ul>
                     <li>
-                        <a>Learn More</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a>Premium</a>
+                        <a href="/#about">About</a>
                     </li>
                     <li>
-                        <a>Skills</a>
+                        <a href="/#skills">Skills</a>
                     </li>
                     <li>
-                        <a>Sign Up</a>
+                        <a href="/#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     );
 }
- 
+
 export default NavBar;
