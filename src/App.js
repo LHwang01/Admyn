@@ -1,8 +1,8 @@
-import Homepage from './pages/homepage'
+import HomePage from './pages/HomePage/HomePage'
 
 function App() {
   return (
-    <Homepage />
+    <HomePage />
   );
 }
 
