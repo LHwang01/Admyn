@@ -1,11 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+
 .loginCard {
     width : 40%;
     height: 584px;
     border-radius: 50px;
     top : 15%;
     left: 30%;
-    text-align: center;
     background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     position: absolute;
+}
+
+.input-forms{
+    margin-top: 10%;
+}
+.submission-trailer{
+    margin-top: 15%;
+    margin-left: 35%;
+    height : 100px;
+}
+h2 {
+    text-align: center;
+}
+
+h5{
+    color: gray;
+    size: small;
+    margin-left: 17%;
+}
+input {
+    border: 1px solid #e3e1e1;
+    background-color: #fcfcfc;
+    border-radius: 50px;
+    width: 60%;
+    height: 65px;
+    text-indent: 30px;
+    margin-left: 20%;
+    box-shadow: 5px 3px 3px gainsboro;
+
+}
+label {
+    width: 60%;
+    height: 65px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+button {
+    background-color: #58D0C5;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    width: 50%;
+    height : 40px;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 5px 3px 3px gainsboro;
+    border: none;
 }

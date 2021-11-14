@@ -7,9 +7,9 @@ const LoginInfo = () => {
         <div>
             <NavBar />
             
-            <div>
+        <div>
             <LoginCard/>
-            </div>
+        </div>
 
         </div>
     );
