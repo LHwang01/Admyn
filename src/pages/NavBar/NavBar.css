@@ -4,7 +4,6 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-    opacity: 0.9;
     display: flex;
     justify-content: right;
     align-items: center;
