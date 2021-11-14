@@ -1,0 +1,11 @@
+.loginCard {
+    width : 40%;
+    height: 584px;
+    border-radius: 50px;
+    top : 15%;
+    left: 30%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: absolute;
+}

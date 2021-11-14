@@ -1,8 +1,11 @@
 import './HomePage.css'
-
+import NavBar from '../NavBar/NavBar'
 const HomePage = () => {
     return (
-        <div></div>
+        <div>
+            <NavBar />
+            Hello home!
+        </div>
     )
 }
 
