@@ -2,23 +2,12 @@ body {
     background-color: #FFBF69
 }
 
-.main-card {
-    position: absolute;
-    width: 1440px;
-    height: 778px;
-    left: 0px;
-    top: 90px;
-
-    background: #FFBF69;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .card {
     position: absolute;
-    width: 662px;
-    height: 606px;
-    left: 389px;
-    top: 122px;
+    width: 40%;
+    height: 584px;
+    left: 30%;
+    top: 15%;
 
     background: white;
     border-radius: 30px;
