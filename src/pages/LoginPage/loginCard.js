@@ -1,4 +1,4 @@
-import './loginPage.css'
+import './LoginPage.css'
 import { Link } from "react-router-dom";
 
 const LoginCard = () => {

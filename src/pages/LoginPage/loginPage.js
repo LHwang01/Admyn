@@ -1,5 +1,5 @@
-import './loginPage.css'
-import LoginCard from './loginCard'
+import './LoginPage.css'
+import LoginCard from './LoginCard'
 import NavBar from '../NavBar/NavBar'
 
 const LoginInfo = () => {
