@@ -1,5 +1,6 @@
 body {
-    background-color: #FFBF69
+    background-color: #FFBF69;
+    overflow-x: hidden;
 }
 
 .center-card {
