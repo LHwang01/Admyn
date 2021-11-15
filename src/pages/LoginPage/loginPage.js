@@ -6,11 +6,9 @@ const LoginInfo = () => {
     return (  
         <div>
             <NavBar />
-            
         <div>
             <LoginCard/>
         </div>
-
         </div>
     );
 }

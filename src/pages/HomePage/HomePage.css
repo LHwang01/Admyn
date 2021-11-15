@@ -4,14 +4,18 @@ body {
 
 .card {
     position: absolute;
-    width: 40%;
-    height: 584px;
-    left: 30%;
-    top: 15%;
+    width: 25%;
+    height: 370px;
+    left: 40%;
+    top: 25%;
 
     background: white;
     border-radius: 30px;
     text-align: center;
     justify-content: center;
+}
 
+.text {
+    padding: 1%;
+    margin-top: 20%;
 }
