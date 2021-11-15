@@ -2,17 +2,46 @@ body {
     background-color: #FFBF69
 }
 
-.card {
+.center-card {
     position: absolute;
-    width: 25%;
-    height: 370px;
-    left: 40%;
+    width: 32%;
+    height: 400px;
+    left: 33%;
     top: 25%;
 
     background: white;
     border-radius: 30px;
     text-align: center;
     justify-content: center;
+    display: inline-block;
+}
+
+.left-card {
+    position: absolute;
+    width: 30%;
+    height: 400px;
+    left: -5%;
+    top: 25%;
+
+    background: #CBF3F0;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.right-card {
+    position: absolute;
+    width: 30%;
+    height: 400px;
+    right: -5%;
+    top: 25%;
+
+    background: #FFF9C6;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
 }
 
 .text {

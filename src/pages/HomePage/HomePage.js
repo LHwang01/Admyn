@@ -1,16 +1,17 @@
 import './HomePage.css'
 import NavBar from '../NavBar/NavBar'
+import MainCard from './MainCard';
+import LeftCard from './LeftCard';
+import RightCard from './RightCard';
 
 const HomePage = () => {
     return (
         <div>
             <NavBar />
-            <div class="card">
-                <div class="text">
-                    <h1>You're in charge.</h1>
-                    <p>All the tools to help you succeed in your addiction journey.</p>
-                    <button>Explore</button>
-                </div>
+            <div>
+                <LeftCard />
+                <MainCard />
+                <RightCard />
             </div>
         </div>
     )
