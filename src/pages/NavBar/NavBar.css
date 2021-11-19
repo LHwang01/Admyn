@@ -25,6 +25,10 @@
     color: black;
 }
 
+.NavBar nav ul li a:hover {
+    cursor: pointer;
+}
+
 .NavBar nav ul li button {
     background-color: #58D0C5;
     border-radius: 20px;
