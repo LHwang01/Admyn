@@ -1,6 +1,8 @@
 import './LoginPage.css'
 import { Link } from "react-router-dom";
 
+//The login card
+
 const LoginCard = () => {
     return (  
     <div className="loginCard">
