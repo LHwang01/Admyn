@@ -8,12 +8,12 @@ const HomePage = () => {
     return (
         <div>
             <NavBar />
-            <div className="border">
+            <div className="spacer">
                 <LeftCard />
                 <MainCard />
                 <RightCard />
             </div>
-            <div className="border">
+            <div className="spacer">
                 Hi
             </div>
         </div>

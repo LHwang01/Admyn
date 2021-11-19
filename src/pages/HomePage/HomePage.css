@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 
-.border {
+.spacer {
     height: 40em;
     border: 2px solid black;
 }
