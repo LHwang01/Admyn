@@ -3,6 +3,11 @@ body {
     overflow-x: hidden;
 }
 
+.border {
+    height: 40em;
+    border: 2px solid black;
+}
+
 .center-card {
     position: absolute;
     width: 32%;

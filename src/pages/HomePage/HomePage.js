@@ -8,10 +8,13 @@ const HomePage = () => {
     return (
         <div>
             <NavBar />
-            <div>
+            <div className="border">
                 <LeftCard />
                 <MainCard />
                 <RightCard />
+            </div>
+            <div className="border">
+                Hi
             </div>
         </div>
     )
