@@ -1,6 +1,7 @@
 import HomePage from './pages/HomePage/HomePage'
 //import NavBar from './pages/NavBar/NavBar'
 import LoginPage from  './pages/LoginPage/LoginPage'
+import './App.css'
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
