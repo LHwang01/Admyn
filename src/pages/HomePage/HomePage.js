@@ -14,7 +14,8 @@ const HomePage = () => {
                 <RightCard />
             </div>
             <div className="spacer">
-                Hi
+                <img src={require('../../images/lady.svg').default} width={1000} height={700} alt={'Illustration of a woman working.'} />
+                <RightCard />
             </div>
         </div>
     )
