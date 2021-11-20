@@ -6,7 +6,11 @@ const NavBar = () => {
         <div className="NavBar">
             
             <nav>
+                
                 <ul>
+                    <li className="admyn-logo">
+                       <Link to="/"> <a> Admyn </a> </Link>
+                    </li>
                     <li>
                         <a>Learn More</a>
                     </li>

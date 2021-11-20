@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-*{
-    font-family: 'Varela Round', sans-serif;
+.input-item{
+    margin-bottom: 20px;
 }
 
-/*The login page*/
-
-.loginCard {
+.signupCard{
     width : 40%;
     height: 584px;
     border-radius: 50px;
@@ -16,29 +13,31 @@
     position: absolute;
 }
 
-.input-forms{
-    margin-top: 10%;
+.signup-input-forms{
+    margin-top: 5%;
 }
-.submission-trailer{
-    margin-top: 15%;
+
+.signup-submission-trailer{
+    margin-top: 5%;
     margin-left: 35%;
     height : 100px;
 }
+
 h2 {
     text-align: center;
 }
 
-.go-to-signup{
+.go-to-login{
     color: gray;
     size: small;
-    margin-left: 17%;
+    margin-left: 18%;
 }
 input {
     border: 1px solid #e3e1e1;
     background-color: #fcfcfc;
     border-radius: 50px;
     width: 60%;
-    height: 65px;
+    height: 50px;
     text-indent: 30px;
     margin-left: 20%;
     box-shadow: 5px 3px 3px gainsboro;
@@ -49,6 +48,7 @@ label {
     height: 65px;
     text-align: center;
     margin-left: 25%;
+    color: #444444;
 }
 
 button {

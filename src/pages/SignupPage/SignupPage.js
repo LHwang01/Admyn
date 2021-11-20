@@ -1,17 +1,17 @@
-import './LoginPage.css'
-import LoginCard from './LoginCard'
+import './SignupPage.css'
+import SignUpCard from './SignupCard';
 import NavBar from '../NavBar/NavBar'
 
 //The login page
 
-const LoginInfo = () => {
+const SignUpInfo = () => {
     return (  
         <div>
             <NavBar />
         <div>
-            <LoginCard/>
+            <SignUpCard/>
         </div>
         </div>
     );
 }
-export default LoginInfo;
+export default SignUpInfo;

@@ -8,6 +8,9 @@
     justify-content: right;
     align-items: center;
 }
+.admyn-logo{
+    float:  left;
+}
 
 .NavBar nav ul {
     list-style: none;
