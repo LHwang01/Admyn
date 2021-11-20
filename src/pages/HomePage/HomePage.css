@@ -5,9 +5,13 @@ body {
 
 .spacer {
     height: 40em;
+    width: 100em;
     border: 2px solid black;
 }
 
+.lady{
+    border: 2px solids #CBF3F0;
+}
 .center-card {
     position: absolute;
     width: 32%;
