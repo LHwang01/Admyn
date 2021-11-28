@@ -5,7 +5,7 @@ import LeftCard from './LeftCard';
 import RightCard from './RightCard';
 import BottomCard from './BottomCard';
 import BottomCardOverlay from './BottomCardOverlay';
-import Footer from '../../Footer/Footer';
+import Footer from '../Footer/Footer';
 
 const HomePage = () => {
     return (
