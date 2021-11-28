@@ -6,12 +6,12 @@ body {
 .spacer {
     height: 40em;
     width: 100em;
-    border: 2px solid black;
 }
 
 .lady{
     border: 2px solids #CBF3F0;
 }
+
 .center-card {
     position: absolute;
     width: 32%;
@@ -48,6 +48,34 @@ body {
     top: 25%;
 
     background: #FFF9C6;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.bottom-card {
+    position: absolute;
+    width: 37%;
+    height: 500px;
+    right: 8%;
+    top: 100%;
+
+    background:#FFF9C6;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.bottom-card-overlay {
+    position: absolute;
+    width: 37%;
+    height: 500px;
+    right: 7%;
+    top: 103%;
+
+    background:white;
     border-radius: 30px;
     text-align: center;
     justify-content: center;

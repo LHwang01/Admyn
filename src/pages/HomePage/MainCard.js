@@ -1,5 +1,6 @@
 import './HomePage.css'
 import { Link } from "react-router-dom";
+
 const MainCard = () => {
     return (  
         <div className="center-card">
