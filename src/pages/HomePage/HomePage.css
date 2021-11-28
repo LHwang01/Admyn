@@ -16,7 +16,7 @@ body {
     position: absolute;
     width: 32%;
     height: 400px;
-    left: 33%;
+    left: 40%;
     top: 25%;
 
     background: white;
@@ -44,7 +44,7 @@ body {
     position: absolute;
     width: 30%;
     height: 400px;
-    right: -5%;
+    right: -15%;
     top: 25%;
 
     background: #FFF9C6;
