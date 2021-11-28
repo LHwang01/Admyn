@@ -7,6 +7,13 @@ const Footer = () => {
             <nav>
                 <ul>
                     <li>
+                        <div className="Description">
+                            Admyn ⓒ - The Addiction Recovery Project
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
                         <a>Contact</a>
                     </li>
                     <li>
