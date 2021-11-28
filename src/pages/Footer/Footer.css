@@ -1,0 +1,37 @@
+.Footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #35322E;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer nav ul li {
+    display: inline-block;
+    margin: 1.3vw;
+}
+
+.Footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Footer nav ul li a:hover {
+    cursor: pointer;
+}
