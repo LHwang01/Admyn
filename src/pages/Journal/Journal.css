@@ -1,0 +1,23 @@
+.journal{
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    height: 600px;
+    left: 10%;
+    top: 15%;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 6%);
+}
+
+.journal p{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.journalEntry{
+    border-radius: 30px;
+    border: solid rgba(128, 128, 128, 0.503) 2px;
+    margin: 2% 5%;
+    padding: 35% 15%;
+}
