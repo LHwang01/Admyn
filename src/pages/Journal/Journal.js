@@ -1,10 +1,15 @@
-import NavBar from '../NavBar/NavBar';
 import './Journal.css'
+import NavBar from '../NavBar/NavBar';
+import '../../App.css'
 
-const JournalCard = () => {
+const Journal = () => {
     return (
-        <div className="journal-card">
+        <div>
+            <NavBar />
+            <div className="journal">
+                <p>This is a journal</p>
+            </div>
         </div>
     );
 }
-export default JournalCard;
+export default Journal;
