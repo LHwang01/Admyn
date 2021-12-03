@@ -7,4 +7,4 @@ const JournalCard = () => {
         </div>
     );
 }
-export default Journal;
+export default JournalCard;
