@@ -1,8 +1,8 @@
 .journal{
     background-color: white;
     position: absolute;
-    width: 50%;
-    height: 600px;
+    width: 60%;
+    height: 70%;
     left: 10%;
     top: 15%;
     border-radius: 30px;
@@ -11,13 +11,13 @@
 }
 
 .journal p{
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 7%;
+    margin-top: 7%;
 }
 
 .journalEntry{
     border-radius: 30px;
     border: solid rgba(128, 128, 128, 0.503) 2px;
-    margin: 2% 5%;
-    padding: 35% 15%;
+    margin: 0% 7%;
+    padding: 33% 40%;
 }
