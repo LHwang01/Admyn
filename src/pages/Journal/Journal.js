@@ -7,6 +7,11 @@ const Journal = () => {
     return (
         <div>
             <NavBar />
+            <div className="journal">
+                <p>How did you feel today?</p>
+                <div className="journalEntry">
+                </div>
+            </div>
             <DayCounter />
         </div>
     );
