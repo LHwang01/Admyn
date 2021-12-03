@@ -1,6 +1,21 @@
 .DayCounter {
     background-color: white;
-    border-radius: 15px;
-    width: 20%;
-    height: 230px;
+    border-radius: 30px;
+    width: 17%;
+    height: 220px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    float: right;
+    margin: 5%;
+
+    outline: 3px solid #E5E5E5;
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+
+h1, h2 {
+    font-weight: normal;
+    text-align: center;
 }

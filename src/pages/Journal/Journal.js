@@ -7,6 +7,7 @@ const Journal = () => {
     return (
         <div>
             <NavBar />
+            <DayCounter />
         </div>
     );
 }
