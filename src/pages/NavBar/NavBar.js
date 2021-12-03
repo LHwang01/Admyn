@@ -12,7 +12,7 @@ const NavBar = () => {
                 </ul>
                 <ul>
                     <li>
-                        <a>Learn More</a>
+                        <Link to="/learn-more"> <a>Learn More</a></Link>
                     </li>
                     <li>
                         <a>Premium</a>
