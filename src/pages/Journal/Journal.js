@@ -2,6 +2,7 @@ import './Journal.css';
 import './DayCounter/DayCounter';
 import NavBar from '../NavBar/NavBar';
 import DayCounter from './DayCounter/DayCounter';
+import PanicButton from './PanicButton/PanicButton';
 
 const Journal = () => {
     return (
@@ -13,6 +14,7 @@ const Journal = () => {
                 </div>
             </div>
             <DayCounter />
+            <PanicButton />
         </div>
     );
 }

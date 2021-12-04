@@ -1,0 +1,14 @@
+.PanicButton {
+    background-color: #E8837B;
+    width: 10%;
+    box-shadow: none;
+
+    float: right;
+    margin-top: 350px;
+    margin-right: -18%;
+}
+
+h1, h2 {
+    font-weight: normal;
+    text-align: center;
+}
