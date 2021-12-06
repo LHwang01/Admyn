@@ -7,17 +7,19 @@
     top: 15%;
     border-radius: 30px;
     text-align: left;
-    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 6%);
+    box-shadow: 4px 3px 8px 1px #969696;
+    outline: 3px solid #E5E5E5;
 }
 
 .journal p{
     margin-left: 7%;
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 .journalEntry{
     border-radius: 30px;
-    border: solid rgba(128, 128, 128, 0.503) 2px;
-    margin: 0% 7%;
-    padding: 33% 40%;
+    border: solid rgba(128, 128, 128, 0.284) 2px;
+    margin: 0% 5%;
+    margin-bottom: 1%;
+    padding: 25% 45%;
 }

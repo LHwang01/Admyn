@@ -1,11 +1,11 @@
 import './DayCounter.css'
 
 const DayCounter = () => {
-    return (  
+    return (
         <div className="DayCounter">
             <h2>Days Clean</h2>
             <h1>90</h1>
-            <h2>Keep Going!</h2>
+            <h2 className="bottom">Keep Going!</h2>
         </div>
     );
 }
