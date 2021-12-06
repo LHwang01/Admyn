@@ -1,7 +1,7 @@
 .journal{
     background-color: white;
     position: absolute;
-    width: 60%;
+    width: 55%;
     height: 70%;
     left: 10%;
     top: 19%;
@@ -21,5 +21,5 @@
     border: solid rgba(128, 128, 128, 0.284) 2px;
     margin: 0% 5%;
     margin-bottom: 1%;
-    padding: 25% 45%;
+    padding: 28% 45%;
 }
