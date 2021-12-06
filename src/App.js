@@ -6,6 +6,7 @@ import Journal from './pages/Journal/Journal'
 import './App.css'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import AddictionPage from './pages/AddictionPage/AddictionPage'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/login' element={<LoginPage />} />
           <Route path='/signup' element={<SignUpPage />} />
           <Route path='/journal' element={<Journal />} />
+          <Route path='/addictions' element={<AddictionPage />} />
         </Routes>
 
       </div>
