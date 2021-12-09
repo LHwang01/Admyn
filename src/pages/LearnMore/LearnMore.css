@@ -1,4 +1,16 @@
-p {
+.paragraph {
     font-size: 20px;
     padding: 15px;
+}
+
+.heading {
+    width : 30%;
+    height: 75px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
 }
