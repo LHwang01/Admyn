@@ -6,7 +6,7 @@ const MainCard = () => {
         <div className="center-card">
             <div class="text">
                 <h1>You're in charge.</h1>
-                <p>All the tools to help you succeed in your addiction journey.</p>
+                <p>All the tools you need to help you succeed in your addiction journey.</p>
                 <Link to="/signup"><button>Explore</button> </Link>
             </div>
         </div>
