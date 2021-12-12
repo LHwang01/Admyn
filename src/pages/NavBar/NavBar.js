@@ -12,6 +12,9 @@ const NavBar = () => {
                 </ul>
                 <ul>
                     <li>
+                        <Link to="/journal"> <a>Journal</a></Link>
+                    </li>
+                    <li>
                         <Link to="/learn-more"> <a>Learn More</a></Link>
                     </li>
                     <li>
