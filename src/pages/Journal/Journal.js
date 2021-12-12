@@ -3,7 +3,7 @@ import './DayCounter/DayCounter';
 import NavBar from '../NavBar/NavBar';
 import DayCounter from './DayCounter/DayCounter';
 import PanicButton from './PanicButton/PanicButton';
-import RelapseButton from './RelapseButton/RelapseButton';
+import RelapseButton from './DayCounter/RelapseButton/RelapseButton';
 
 const Journal = () => {
     return (
