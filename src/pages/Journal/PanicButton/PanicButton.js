@@ -1,10 +1,11 @@
 import './PanicButton.css'
 import { Link } from "react-router-dom";
+import { getRandomLink } from "./Links";
 
 const PanicButton = () => {
     return (
         <div>
-            <Link to="/learn-more"><button className="PanicButton"> Panic </button></Link>
+            <button className="PanicButton" onClick={()=> window.open(getRandomLink())}> Panic </button>
         </div>
     );
 }
