@@ -1,10 +1,10 @@
 import './RelapseButton.css';
 
-const RelapseButton = () => {
+const RelapseButton = (props) => {
     return (
-        <a href="/" className="RelapseButton">
-            <img src={require('../../../../images/relapse-button.png').default} width={"60%"} height={"100%"} alt={'Relapse Button'} />
-        </a>
+        <div className="RelapseButton">
+            <img src={require('../../../../images/relapse-button.png').default} onClick={() => props.setCount(0)} width={"60%"} height={"100%"} alt={'Relapse Button'} />
+        </div>
     );
 }
 
