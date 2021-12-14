@@ -35,7 +35,7 @@ class Form extends Component {
                     <div className="title">
                         <label>Title</label>
                         <input
-                            placeholder="Enter title"
+                            placeholder="Today was great!.."
                             type="text"
                             name="title"
                             id="title"

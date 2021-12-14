@@ -2,12 +2,12 @@
     background-color: white;
     position: absolute;
     width: 45%;
-    height: 650px;
+    height: 660px;
     left: 18%;
     top: 15%;
     border-radius: 30px;
     text-align: left;
-    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 6%);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.205);
 }
 
 .journal p{
@@ -20,4 +20,8 @@
     border: solid rgba(128, 128, 128, 0.503) 2px;
     margin: 2% 5%;
     padding: 35% 15%;
+}
+
+h2{
+    margin-top: 6%;
 }

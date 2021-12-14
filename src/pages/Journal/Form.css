@@ -1,5 +1,5 @@
 .title, .textArea{
-    margin: 5% 0% 3% -12%;
+    margin: 5% 0% 3% -15%;
 }
 
 #title{
@@ -9,8 +9,6 @@
     height: 350px;
     padding: 0;
     padding-right: 12%;
-    padding-bottom: -92%;
-    padding-top: -10%;
 }
 
 .submit{
