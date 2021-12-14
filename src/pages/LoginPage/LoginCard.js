@@ -18,7 +18,7 @@ const LoginCard = () => {
             </div>
 
             <div className="submission-trailer">
-                <button> Log in </button>
+                <button> <a href="/journal">Log in</a> </button>
                 <br />
                 <Link to="/signup"><h5 className="go-to-signup">Sign up?</h5> </Link>
             </div>

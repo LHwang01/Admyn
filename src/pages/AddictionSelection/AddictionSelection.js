@@ -1,46 +1,97 @@
 import './AddictionSelection.css'
-import { Link } from "react-router-dom";
 import NavBar from '../NavBar/NavBar';
+import React, { Component } from "react";
 
-//Addiction selection card
+class AddictionSelection extends Component {
+    constructor() {
+        super();
+        this.state = {
+            name: "React"
+        };
+        this.onValueChange = this.onValueChange.bind(this);
+        this.formSubmit = this.formSubmit.bind(this);
+    }
 
-const AddictionSelection = () => {
-    return (
-        <div>
-            <NavBar />
-            <div className="addictionCard">
-                <h2> Choose your focus:</h2>
-                <form className="addictions">
-                    <label className='selection'>
-                        <input className='selection' type="radio" name="radio" checked />
-                        <span>Social Media</span>
-                    </label>
-                    <label className='selection'>
-                        <input className='selection' type="radio" name="radio" />
-                        <span>Video Game</span>
-                    </label>
-                    <label className='selection'>
-                        <input className='selection' type="radio" name="radio" />
-                        <span>Shopping</span>
-                    </label>
-                    <label className='selection'>
-                        <input className='selection' type="radio" name="radio" />
-                        <span>NSFW</span>
-                    </label>
-                    <label className='selection'>
-                        <input type="radio" name="reason" value="" /> Other <input type="text" name="other_reason" />
+    onValueChange(event) {
+        this.setState({
+            selectedOption: event.target.value
+        });
+    }
 
-                    </label>
+    formSubmit(event) {
+        event.preventDefault();
+        console.log(this.state.selectedOption)
+    }
+
+    render() {
+        return (
+            <div>
+                <NavBar />
+
+                <form className="addictionCard" onSubmit={this.formSubmit}>
+                    <div className="form-content"><h3 className="heading">Choose your focus:</h3>
+                        <div className="radio">
+                            <label>
+                                <input
+                                    type="radio"
+                                    value="SocialMedia"
+                                    checked={this.state.selectedOption === "Male"}
+                                    onChange={this.onValueChange}
+                                />
+                                Social Media
+                            </label>
+                        </div>
+                        <div className="radio">
+                            <label>
+                                <input
+                                    type="radio"
+                                    value="VideoGames"
+                                    checked={this.state.selectedOption === "VideoGames"}
+                                    onChange={this.onValueChange}
+                                />
+                                Video Games
+                            </label>
+                        </div>
+                        <div className="radio">
+                            <label>
+                                <input
+                                    type="radio"
+                                    value="Vaping"
+                                    checked={this.state.selectedOption === "Vaping"}
+                                    onChange={this.onValueChange}
+                                />
+                                Vaping
+                            </label>
+                        </div>
+                        <div className="radio">
+                            <label>
+                                <input
+                                    type="radio"
+                                    value="Other"
+                                    checked={this.state.selectedOption === "Other"}
+                                    onChange={this.onValueChange}
+                                />
+                                Other
+                            </label>
+                        </div>
+                        <div>
+                            Selected option is : {this.state.selectedOption}
+                        </div>
+                        <button className="btn btn-default" type="submit">
+                            <a href="/journal">Let's get started!</a>
+                        </button>
+                    </div>
                 </form>
 
-                <div className="signup-submission-trailer">
-                    <button> <a href="/journal">Submit</a></button>
-                </div>
             </div>
-        </div>
 
-
-    );
+        );
+    }
 }
 
 export default AddictionSelection;
+
+
+
+
+

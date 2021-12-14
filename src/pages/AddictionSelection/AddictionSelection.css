@@ -2,14 +2,34 @@
     width : 35%;
     height: 584px;
     border-radius: 50px;
-    top : 15%;
-    left: 32%;
+    top : 10%;
+    left: 30%;
+    margin-top: 5%;
     background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     position: absolute;
+    align-items: center;
+}
+.form-content{
+    margin: 3% 5%;
+    align-items: center;
+    padding: 1%;
+    box-shadow: none;
+}
+.radio{
+    
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    box-sizing: 1%;
 }
 
 .selection{
     margin: 3%;
     box-shadow: none;
+}
+
+.typeButton{
+    margin-top: 30%;
+    margin-left: 35%;
 }
