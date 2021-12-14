@@ -1,0 +1,23 @@
+.title, .textArea{
+    margin: 5% 0% 3% -12%;
+}
+
+#title{
+    width: 50%;
+}
+#body{
+    height: 350px;
+    padding: 0;
+    padding-right: 12%;
+    padding-bottom: -92%;
+    padding-top: -10%;
+}
+
+.submit{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    float: center;
+    margin-left: 40%;
+    position: relative;
+}
