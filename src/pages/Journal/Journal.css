@@ -1,4 +1,5 @@
 .journal{
+    color: dimgray;
     background-color: white;
     position: absolute;
     width: 45%;
@@ -7,7 +8,8 @@
     top: 15%;
     border-radius: 30px;
     text-align: left;
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.205);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.534);
+    outline: 3px solid #e5e5e5;
 }
 
 .journal p{

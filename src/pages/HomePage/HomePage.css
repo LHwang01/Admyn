@@ -1,3 +1,4 @@
+
 body {
     background-color: #FFBF69;
     overflow-x: hidden;
@@ -14,10 +15,12 @@ body {
 
 .center-card {
     position: absolute;
-    width: 32%;
-    height: 400px;
-    left: 34%;
-    top: 25%;
+    width: 38%;
+    height: 57%;
+    left: 30%;
+    top: 20%;
+
+    color: rgb(117, 105, 105);
 
     background: white;
     border-radius: 30px;
@@ -26,7 +29,7 @@ body {
     display: inline-block;
 
     outline: 3px solid #e5e5e5;
-    box-shadow: 4px 3px 8px 1px #969696;
+    box-shadow: 4px 3px 8px 1px #575656;
 }
 
 .left-card {
@@ -34,9 +37,10 @@ body {
     width: 30%;
     height: 400px;
     left: -5%;
-    top: 25%;
+    top: 23%;
 
     background: #CBF3F0;
+    color: rgba(78, 78, 78, 0.849);
     border-radius: 30px;
     text-align: center;
     justify-content: center;
@@ -46,14 +50,27 @@ body {
     box-shadow: 4px 3px 8px 1px #969696;
 }
 
+.left-content{
+    margin: 10%;
+    line-height:200%;
+}
+.right-content{
+    margin: 10%;
+    line-height:150%;
+    text-align: left;
+}
+.right-center{
+    text-align: center;
+}
 .right-card {
     position: absolute;
     width: 30%;
     height: 400px;
     right: -5%;
-    top: 25%;
+    top: 23%;
 
     background: #FFF9C6;
+    color: rgba(78, 78, 78, 0.849);
     border-radius: 30px;
     text-align: center;
     justify-content: center;
@@ -75,7 +92,7 @@ body {
     justify-content: center;
     display: inline-block;
 
-    outline: 3px solid #e5e5e50b;
+    outline: 2px solid #f0ecdcd0;
     box-shadow: 4px 3px 8px 1px #969696;
 }
 
@@ -93,11 +110,11 @@ body {
     display: inline-block;
 
     outline: 3px solid #e5e5e5;
-    box-shadow: 4px 3px 8px 1px #969696;
+    box-shadow: 4px 3px 8px 1px #8b8a8a;
     margin-bottom: 40%;
 }
 
 .text {
-    padding: 5% 10% 5% 10%;
+    padding: 10% 10% 5% 10%;
     margin-top: 10%;
 }

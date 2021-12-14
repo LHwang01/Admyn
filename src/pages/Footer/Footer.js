@@ -2,7 +2,7 @@ import './Footer.css'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-    return (  
+    return (
         <div className="Footer">
             <nav>
                 <ul>
@@ -12,14 +12,16 @@ const Footer = () => {
                         </div>
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <a>Contact</a>
-                    </li>
-                    <li>
-                        <a>About Us</a>
-                    </li>
-                </ul>
+                <div className="extraLinks">
+                    <ul>
+                        <li>
+                            <a>Contact</a>
+                        </li>
+                        <li>
+                            <a>About Us</a>
+                        </li>
+                    </ul></div>
+
             </nav>
         </div>
     );

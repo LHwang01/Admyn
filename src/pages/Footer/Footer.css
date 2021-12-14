@@ -1,12 +1,15 @@
 .Footer {
-    position: relative;
-    bottom: 0;
-    width: 95%;
+    position:relative;
+    bottom:0;
+    width:89%;
+    margin-top: 3%;
     height: 60px;
     background: #35322E;
 
 }
-
+.extraLinks{
+    margin-left: -5%;
+}
 .Footer nav {
     display: flex;
     justify-content: space-between;
