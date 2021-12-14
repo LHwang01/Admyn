@@ -1,14 +1,18 @@
 .PanicButton {
-    background-color: #E8837B;
+    background-color: #e4645af4;
     width: 10%;
     box-shadow: none;
 
     float: right;
     margin-top: 350px;
     margin-right: -18%;
+
+    outline: 3px solid #d4625a91;
+    box-shadow: 4px 3px 8px 1px #7676763e;
 }
 
-h1, h2 {
+button {
     font-weight: normal;
+    font-size: 20px;
     text-align: center;
 }

@@ -24,6 +24,9 @@ body {
     text-align: center;
     justify-content: center;
     display: inline-block;
+
+    outline: 3px solid #e5e5e5;
+    box-shadow: 4px 3px 8px 1px #969696;
 }
 
 .left-card {
@@ -38,6 +41,9 @@ body {
     text-align: center;
     justify-content: center;
     display: inline-block;
+
+    outline: 3px solid #d6e7e6;
+    box-shadow: 4px 3px 8px 1px #969696;
 }
 
 .right-card {
@@ -52,6 +58,8 @@ body {
     text-align: center;
     justify-content: center;
     display: inline-block;
+    outline: 3px solid #f3f0cc;
+    box-shadow: 4px 3px 8px 1px #969696;
 }
 
 .bottom-card {
@@ -66,6 +74,9 @@ body {
     text-align: center;
     justify-content: center;
     display: inline-block;
+
+    outline: 3px solid #e5e5e50b;
+    box-shadow: 4px 3px 8px 1px #969696;
 }
 
 .bottom-card-overlay {
@@ -80,6 +91,10 @@ body {
     text-align: center;
     justify-content: center;
     display: inline-block;
+
+    outline: 3px solid #e5e5e5;
+    box-shadow: 4px 3px 8px 1px #969696;
+    margin-bottom: 40%;
 }
 
 .text {
