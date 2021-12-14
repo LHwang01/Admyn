@@ -12,15 +12,14 @@ const Footer = () => {
                         </div>
                     </li>
                 </ul>
-                <div className="extraLinks">
-                    <ul>
-                        <li>
-                            <a>Contact</a>
-                        </li>
-                        <li>
-                            <a>About Us</a>
-                        </li>
-                    </ul></div>
+                <ul>
+                    <li>
+                        <a>Contact</a>
+                    </li>
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                </ul>
 
             </nav>
         </div>
