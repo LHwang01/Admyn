@@ -2,6 +2,7 @@
 body {
     background-color: #FFBF69;
     overflow-x: hidden;
+    color: rgb(88, 88, 88);
 }
 
 .spacer {
@@ -19,8 +20,6 @@ body {
     height: 57%;
     left: 30%;
     top: 20%;
-
-    color: rgb(117, 105, 105);
 
     background: white;
     border-radius: 30px;

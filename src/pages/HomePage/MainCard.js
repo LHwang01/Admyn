@@ -7,7 +7,7 @@ const MainCard = () => {
             <div className="text">
                 <h1>You're in charge.</h1>
                 <p>All the tools to help you succeed in your addiction journey.</p>
-                <Link to="/signup"><button>Explore</button> </Link>
+                <Link to="/learn-more"><button>Explore</button> </Link>
             </div>
         </div>
     );

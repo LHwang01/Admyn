@@ -47,21 +47,4 @@ class Journal extends Component {
         )
     }
 }
-
-/*
-const Journal = () => {
-    return (
-        <div>
-            <NavBar />
-            <div className="journal">
-                <p>How did you feel today?</p>
-                <div className="journalEntry">
-                </div>
-            </div>
-            <DayCounter />
-            <PanicButton />
-        </div>
-    );
-}
-*/
 export default Journal;
