@@ -1,0 +1,15 @@
+.addictionCard{
+    width : 35%;
+    height: 584px;
+    border-radius: 50px;
+    top : 15%;
+    left: 32%;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: absolute;
+}
+
+.selection{
+    margin: 3%;
+    box-shadow: none;
+}
