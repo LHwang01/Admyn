@@ -16,10 +16,8 @@
     padding: 1%;
     box-shadow: none;
 }
+
 .radio{
-    
-    display: flex;
-    flex-direction: column;
     box-shadow: none;
     box-sizing: 1%;
 }
